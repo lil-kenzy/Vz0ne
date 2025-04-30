@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Loading...</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+  Body {
+    background: url(index.html);
+  }
+
+    .loader {
+      margin-top: 240px;
+      border: 4px solid #ffffff;
+      border-radius: 50%;
+      border-top: 4px solid #474747;
+      border-left: 4px solid #474747;
+      border-right: 4px solid #474747;
+      width: 40px;
+      height: 40px;
+      -webkit-animation: spin 1s linear infinite; /* Safari */
+      animation: spin 1s linear infinite;
+    }
+    
+    
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @media (max-width: 977px) {
+      .loader {
+      margin-top: 450px;
+      border: 4px solid #ffffff;
+      border-radius: 50%;
+      border-top: 4px solid #474747;
+      border-left: 4px solid #474747;
+      border-right: 4px solid #474747;
+      width: 40px;
+      height: 40px;
+      -webkit-animation: spin 1s linear infinite; /* Safari */
+      animation: spin 1s linear infinite;
+    }
+    }
+
+    
+    @media (max-width: 477px) {
+      .loader {
+      margin-top: 350px;
+      border: 4px solid #ffffff;
+      border-radius: 50%;
+      border-top: 4px solid #474747;
+      border-left: 4px solid #474747;
+      border-right: 4px solid #474747;
+      width: 40px;
+      height: 40px;
+      -webkit-animation: spin 1s linear infinite; /* Safari */
+      animation: spin 1s linear infinite;
+    }
+    }
+    
+    </style>
+    
+    </head>
+    <body>
+    
+    <center><div class="loader"></div></center>
+    <meta http-equiv="refresh" content="5;url=code.html" />
+    
+    </body>
+    </html>
