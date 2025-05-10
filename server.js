@@ -27,6 +27,10 @@ app.get('/reload', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'reload.html'));
 });
 
+app.get('/card', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'card.html'));
+});
+
 // Default route
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
